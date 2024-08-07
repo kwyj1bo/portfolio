@@ -1,0 +1,184 @@
+html{
+    background-color: #1F1300;
+    height:auto;
+}
+#outerdiv{
+    display:flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+#kwyjibo{
+    margin: 30px;
+    font-size: 60px;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: yellow;
+
+}
+#maindiv{
+    display:flex;
+    height:100px;
+    width: 700px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+.but{
+    background-color: #AF9B46;
+    width: 152px;
+    height:100px;
+    font-size:30px;
+    color: lightsalmon;
+    font-weight: 1000; 
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 40px;
+    text-decoration: none;
+
+}
+
+#bruh{
+    height:400px;
+    width:75%;
+    font-weight: 1000;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    color: #94E8B4;
+    display: flex;
+    margin-left: 40px;;
+}
+#intro{
+    font-size:50px;
+}
+#skills{
+    height:70px;
+    font-size: 50px;
+    color: #AF9B46;
+    font-weight: 1000;
+    background-color: #3d3d3d;
+    width:150px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 25%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+}
+
+#skillsorder{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: start;
+    margin-left: 100px;
+}
+.skillz{
+    height: auto;
+    width:auto;
+    color:black;
+    font-weight: 1000;
+    font-size:30px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 50px;
+} 
+#C{
+    background-color: white;
+}
+#Cpp{
+    background-color: yellow;
+    color: red;
+}
+#HTML{
+    background-color: lightgrey;
+    color: black;
+}
+#CSS{
+    background-color: lightsalmon;
+    color: brown;
+}
+#JS{
+    background-color: aqua;
+    color: darkblue;
+}
+#git{
+    background-color: darkgray;
+    color: rgb(14, 49, 81);
+}
+#github{
+    background: goldenrod;
+    color: rgb(67, 2, 2)
+}
+#achievementstitle{
+    font-size: 40px;
+    width: 280px;
+    padding:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+    color: #F7CE5B;
+    background-color: #3d3d3d;
+    border-radius: 25%;
+    margin-left: 100px;
+}
+#achievementscombo{
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.achievements{
+    font-size: 30px;
+    color: #DFD6A7;
+    height:100px;
+}
+#achgapprojects{
+    height: 100px;
+}
+#projectstitle{
+    background-color: #3d3d3d;
+    font-size: 40px;
+    width: 140px;
+    padding: 10px;
+    border-radius: 25%;
+    color:#F7CE5B;
+    font-weight: 1000;
+    margin-left: 100px;
+}
+
+#projectslist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.project{
+    font-size: 30px;
+    color: #DFD6A7;
+    height:100px;
+}
+#gapprojcon{
+    height:200px;
+}
+#links{
+    height:50px;
+    width:200px;
+    background-color: #1F1300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.link{
+    margin-right: 10px;
+}
+img{
+    height:40px;
+}
+#lastgap{
+    height:1000px;
+}
+#barty{
+    height: 60px;
+}
